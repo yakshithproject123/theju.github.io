@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: url(order.jpg);
+            background-size: 100%;
+            background-repeat: repeat-y;
+            color:black;
+            font-family: black;
+        }
+        .main{
+            background-color: rgb(from color r g b);
+            display: block;
+            margin: 120px 100px 100px 70px;
+            width: 27px;
+            padding: 4px 10px 10px 25px;
+            border-radius: 12px;
+            border: 2px solid rgba(red, green, blue, alpha 0.3);
+        }
+        h1{
+            margin: 8px 4px 20px 52px;
+            color: black;
+
+        }
+        .submit{
+            margin: 4px 4px 4px 24px;
+            width: 200px;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: black;
+            border-radius: 3px;
+            background-color: rgba(red, green, blue, alpha 0.3);
+            box-shadow: 1px 1px 5px rgba(0,0,0,0);
+        }
+        @media(max-width:800px)
+        {
+            body{
+                background-image: url(order.jpg);
+                background-size: cover;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <marquee behavior="" direction="right">
+        <h1>ORDER DETAILS</h1>
+        </marquee><br><br><br>     
+            <h1>
+             <label for="ITEM">ITEM:</label>
+             <input type="text" id="ITEM" required><br><br>
+             <label for="NUMBER OF ITEMS">NUMBER OF ITEMS:</label>
+             <input type="text" id="NUMBER OF ITEMS" required><br><br>
+            <label for="AMOUNT">AMOUNT:</label>
+             <input type="text" id="AMOUNT" required><br><br>
+             <label for="GRAND AMOUNT">GRAND AMOUNT:</label>
+             <input type="text" id="GRAND AMOUNT" required><br><br>
+             <label for="LOCATION">LOCATION:</label>
+             <input type="text" id="LOCATION" required><br><br>
+            </h1>
+        <div>
+            <h1><button type="ORDER CONFIRM"> <a href="thank.html">ORDER CONFIRE</a></button></h1>
+        </div>
+    
+</body>
+</html>
